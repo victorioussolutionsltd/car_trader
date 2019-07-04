@@ -5,7 +5,7 @@ export const products = [
     img: require("./assets/products/product-1.png"),
     price: 70000,
     inCart: false,
-    onWishList: true,
+    onWishList: false,
   },
   {
     id: 2,
