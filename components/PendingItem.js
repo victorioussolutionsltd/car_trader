@@ -11,7 +11,7 @@ export class PendingItem extends React.Component {
       <View style={pendingItem.container}>
         <Image style={pendingItem.image} source={img} />
         <View style={pendingItem.wrapper}><Text style={pendingItem.text}>{title}</Text></View>
-        <View style={pendingItem.wrapper}><Text style={pendingItem.text}>{price}</Text></View>
+        { this.props.showPrice ? (<View style={pendingItem.wrapper}><Text style={pendingItem.text}>{price}</Text></View> )  : (<View></View>) }
         <View style={pendingItem.wrapper}><Button title="Remove" onPress={ () => { this.props.handleRemove(id) } } /></View>
       </View>
     );
