@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "An application in React Native for buying cars online.",
+    "githubUrl": "https://github.com/victorioussolutionsltd/car_trader.git"
   }
 }
